@@ -25,7 +25,7 @@ export const TaskItem: React.FC<Props> = ({
         <Draggable draggableId={task.id} index={index}>
             {(provided) => (
                 <div
-                    className="bg-gray-50 rounded text-lg flex cursor-pointer my-1 text-gray-700"
+                    className="bg-gray-50 py-2 rounded text-lg flex cursor-pointer my-1 text-gray-700"
                     ref={provided.innerRef}
                     {...provided.draggableProps}
                     {...provided.dragHandleProps}
