@@ -34,8 +34,13 @@ const App: React.FC = () => {
 
     return (
         <div className="h-screen text-center text-lg pt-10 bg-blue-200">
-            <div className="w-3/4 bg-blue-400 mx-auto rounded py-2">
-                <h2 className="text-white py-3 uppercase text-2xl">Todo App</h2>
+            <div className="w-1/4 bg-blue-400 mx-auto rounded py-2">
+                <h2 className="text-white py-3 uppercase text-2xl">
+                    Todo App
+                    <p className="text-sm">
+                        You can drag task to reorder them.
+                    </p>
+                </h2>
                 <SearchTask handleSearch={handleSearch} />
                 <TaskList
                     todos={todos}
