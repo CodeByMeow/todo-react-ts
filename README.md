@@ -12,3 +12,5 @@
    npm run dev
    ```
 5. Open browser follow the link: http://localhost:5173
+
+Demo:[ Todo app ](https://katinbox.github.io/todo-react-ts/)
