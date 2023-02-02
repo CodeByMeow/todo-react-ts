@@ -2,11 +2,14 @@
     "name": "todo-app",
     "private": true,
     "version": "0.0.0",
+    "homepage": "https://katinbox.github.io/todo-react-ts",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "@types/react-beautiful-dnd": "^13.1.3",
